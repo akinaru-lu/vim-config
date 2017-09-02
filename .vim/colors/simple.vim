@@ -11,15 +11,15 @@ let colors_name="simple"
 ":help hi
 hi Normal		ctermfg=253			ctermbg=233
 hi LineNr		ctermfg=246
-hi CursorLine						ctermbg=235		cterm=None
+hi ColorColumn						ctermbg=234
+hi CursorLine						ctermbg=234		cterm=None
 hi CursorColumn						ctermbg=234		cterm=None
-hi ColorColumn						ctermbg=235
-hi CursorLineNr ctermfg=253			ctermbg=236
+hi CursorLineNr ctermfg=253			ctermbg=234
 hi Error		ctermfg=Red			ctermbg=White	cterm=Bold
 hi Search					        ctermbg=Yellow
 hi IncSearch	ctermfg=Red			ctermbg=Yellow
 
-"
+"what's this???
 hi Pmenu		ctermfg=246			ctermbg=235
 hi PmenuSel		ctermfg=253			ctermbg=235
 
@@ -44,4 +44,4 @@ hi Namespace	ctermfg=253
 
 hi Special		ctermfg=246
 
-hi Todo			ctermfg=DarkGreen	ctermbg=234 	cterm=Bold
+hi Todo			ctermfg=DarkGreen 	ctermbg=233    cterm=Bold
