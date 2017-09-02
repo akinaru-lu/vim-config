@@ -12,15 +12,12 @@ au BufWrite /private/tmp/crontab.* set nowritebackup nobackup
 au BufWrite /private/etc/pw.* set nowritebackup nobackup
 
 syntax on
-set nu 				"show line number
+set number 			"show line number
 set autoindent
-"set smartindent
-"set tabstop=4 		"length of a tab
-"set shiftwidth=4	"indent length(?)
 set showmatch 		"parenthesis matching
 set ruler 			"show status
 set hlsearch 		"highlight result of searching
-"set ignorecase		"ignore case when searching
+set ignorecase		"ignore case when searching
 set textwidth=80	"Force wrap all text to 80 columns
 set colorcolumn=+1
 set cursorline
